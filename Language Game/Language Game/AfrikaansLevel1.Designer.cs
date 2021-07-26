@@ -55,9 +55,9 @@ namespace Language_Game
             // 
             this.lblQuestion.BackColor = System.Drawing.Color.DimGray;
             this.lblQuestion.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuestion.Location = new System.Drawing.Point(341, 282);
+            this.lblQuestion.Location = new System.Drawing.Point(341, 264);
             this.lblQuestion.Name = "lblQuestion";
-            this.lblQuestion.Size = new System.Drawing.Size(624, 160);
+            this.lblQuestion.Size = new System.Drawing.Size(624, 178);
             this.lblQuestion.TabIndex = 9;
             this.lblQuestion.Text = "Question";
             this.lblQuestion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -129,7 +129,7 @@ namespace Language_Game
             this.BackButton.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BackButton.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.BackButton.Location = new System.Drawing.Point(1112, 44);
-            this.BackButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BackButton.Margin = new System.Windows.Forms.Padding(4);
             this.BackButton.Name = "BackButton";
             this.BackButton.Size = new System.Drawing.Size(184, 82);
             this.BackButton.TabIndex = 14;

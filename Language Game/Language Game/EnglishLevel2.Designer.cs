@@ -45,7 +45,7 @@ namespace Language_Game
             this.label1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(452, 134);
+            this.label1.Location = new System.Drawing.Point(451, 107);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(417, 130);
             this.label1.TabIndex = 1;
@@ -58,9 +58,9 @@ namespace Language_Game
             this.lblQuestion.BackColor = System.Drawing.Color.WhiteSmoke;
             this.lblQuestion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.lblQuestion.Font = new System.Drawing.Font("Microsoft YaHei UI", 19.8F, System.Drawing.FontStyle.Bold);
-            this.lblQuestion.Location = new System.Drawing.Point(356, 289);
+            this.lblQuestion.Location = new System.Drawing.Point(356, 256);
             this.lblQuestion.Name = "lblQuestion";
-            this.lblQuestion.Size = new System.Drawing.Size(624, 160);
+            this.lblQuestion.Size = new System.Drawing.Size(624, 210);
             this.lblQuestion.TabIndex = 8;
             this.lblQuestion.Text = "Question";
             this.lblQuestion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -132,7 +132,7 @@ namespace Language_Game
             this.BackButton.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BackButton.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.BackButton.Location = new System.Drawing.Point(1081, 54);
-            this.BackButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BackButton.Margin = new System.Windows.Forms.Padding(4);
             this.BackButton.Name = "BackButton";
             this.BackButton.Size = new System.Drawing.Size(184, 82);
             this.BackButton.TabIndex = 15;

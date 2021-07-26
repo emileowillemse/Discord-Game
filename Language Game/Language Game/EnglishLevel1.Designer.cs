@@ -45,7 +45,7 @@ namespace Language_Game
             this.label1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 24F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(455, 124);
+            this.label1.Location = new System.Drawing.Point(461, 88);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(424, 118);
             this.label1.TabIndex = 0;
@@ -58,9 +58,9 @@ namespace Language_Game
             this.lblQuestion.BackColor = System.Drawing.Color.WhiteSmoke;
             this.lblQuestion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.lblQuestion.Font = new System.Drawing.Font("Microsoft YaHei UI", 19.8F, System.Drawing.FontStyle.Bold);
-            this.lblQuestion.Location = new System.Drawing.Point(363, 259);
+            this.lblQuestion.Location = new System.Drawing.Point(356, 219);
             this.lblQuestion.Name = "lblQuestion";
-            this.lblQuestion.Size = new System.Drawing.Size(624, 160);
+            this.lblQuestion.Size = new System.Drawing.Size(624, 225);
             this.lblQuestion.TabIndex = 1;
             this.lblQuestion.Text = "Question";
             this.lblQuestion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -71,7 +71,7 @@ namespace Language_Game
             this.button1.BackColor = System.Drawing.Color.DimGray;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button1.Location = new System.Drawing.Point(196, 421);
+            this.button1.Location = new System.Drawing.Point(196, 462);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(344, 108);
@@ -86,7 +86,7 @@ namespace Language_Game
             this.button2.BackColor = System.Drawing.Color.DimGray;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button2.Location = new System.Drawing.Point(785, 421);
+            this.button2.Location = new System.Drawing.Point(785, 462);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(344, 108);
@@ -133,7 +133,7 @@ namespace Language_Game
             this.BackButton.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BackButton.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.BackButton.Location = new System.Drawing.Point(1101, 60);
-            this.BackButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BackButton.Margin = new System.Windows.Forms.Padding(4);
             this.BackButton.Name = "BackButton";
             this.BackButton.Size = new System.Drawing.Size(184, 82);
             this.BackButton.TabIndex = 15;
