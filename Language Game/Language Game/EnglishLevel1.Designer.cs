@@ -45,10 +45,9 @@ namespace Language_Game
             this.label1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 24F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(341, 101);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(455, 124);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(318, 96);
+            this.label1.Size = new System.Drawing.Size(424, 118);
             this.label1.TabIndex = 0;
             this.label1.Text = "Welcome To Englsih Quiz level 1...";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -59,10 +58,9 @@ namespace Language_Game
             this.lblQuestion.BackColor = System.Drawing.Color.WhiteSmoke;
             this.lblQuestion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.lblQuestion.Font = new System.Drawing.Font("Microsoft YaHei UI", 19.8F, System.Drawing.FontStyle.Bold);
-            this.lblQuestion.Location = new System.Drawing.Point(273, 224);
-            this.lblQuestion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblQuestion.Location = new System.Drawing.Point(363, 259);
             this.lblQuestion.Name = "lblQuestion";
-            this.lblQuestion.Size = new System.Drawing.Size(461, 96);
+            this.lblQuestion.Size = new System.Drawing.Size(624, 160);
             this.lblQuestion.TabIndex = 1;
             this.lblQuestion.Text = "Question";
             this.lblQuestion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -73,10 +71,10 @@ namespace Language_Game
             this.button1.BackColor = System.Drawing.Color.DimGray;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button1.Location = new System.Drawing.Point(147, 342);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(196, 421);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(258, 88);
+            this.button1.Size = new System.Drawing.Size(344, 108);
             this.button1.TabIndex = 2;
             this.button1.Tag = "1";
             this.button1.Text = "A";
@@ -88,10 +86,10 @@ namespace Language_Game
             this.button2.BackColor = System.Drawing.Color.DimGray;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button2.Location = new System.Drawing.Point(589, 342);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(785, 421);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(258, 88);
+            this.button2.Size = new System.Drawing.Size(344, 108);
             this.button2.TabIndex = 3;
             this.button2.Tag = "2";
             this.button2.Text = "B";
@@ -103,10 +101,10 @@ namespace Language_Game
             this.button3.BackColor = System.Drawing.Color.DimGray;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button3.Location = new System.Drawing.Point(147, 488);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Location = new System.Drawing.Point(196, 601);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(258, 88);
+            this.button3.Size = new System.Drawing.Size(344, 108);
             this.button3.TabIndex = 4;
             this.button3.Tag = "3";
             this.button3.Text = "C";
@@ -118,10 +116,10 @@ namespace Language_Game
             this.button4.BackColor = System.Drawing.Color.DimGray;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button4.Location = new System.Drawing.Point(589, 488);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Location = new System.Drawing.Point(785, 601);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(258, 88);
+            this.button4.Size = new System.Drawing.Size(344, 108);
             this.button4.TabIndex = 5;
             this.button4.Tag = "4";
             this.button4.Text = "D";
@@ -134,9 +132,10 @@ namespace Language_Game
             this.BackButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BackButton.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BackButton.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.BackButton.Location = new System.Drawing.Point(826, 49);
+            this.BackButton.Location = new System.Drawing.Point(1101, 60);
+            this.BackButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BackButton.Name = "BackButton";
-            this.BackButton.Size = new System.Drawing.Size(138, 67);
+            this.BackButton.Size = new System.Drawing.Size(184, 82);
             this.BackButton.TabIndex = 15;
             this.BackButton.Text = "GO BACK";
             this.BackButton.UseVisualStyleBackColor = false;
@@ -145,21 +144,21 @@ namespace Language_Game
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Language_Game.Properties.Resources.English;
-            this.pictureBox1.Location = new System.Drawing.Point(11, 11);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(15, 14);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(309, 156);
+            this.pictureBox1.Size = new System.Drawing.Size(412, 192);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // EnglishLevel1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.BackgroundImage = global::Language_Game.Properties.Resources._240_F_323124237_SfGqpttZqU2mrMm61VPSWA2tKvc95l9O;
-            this.ClientSize = new System.Drawing.Size(994, 601);
+            this.ClientSize = new System.Drawing.Size(1325, 740);
             this.Controls.Add(this.BackButton);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button4);
@@ -168,7 +167,7 @@ namespace Language_Game
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblQuestion);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "EnglishLevel1";
             this.Text = "EnglishLevel1";
             this.Load += new System.EventHandler(this.EnglishLevel1_Load);
